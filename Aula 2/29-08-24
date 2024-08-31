@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+</head>
+<body>
+    <center><h1><u>Eduarda Alves</u></h1> </center>
+    <h2>Futura Cientista da Computação</h2>
+    <h1>Sobre mim:</h1>
+    <h3>Olá, meu nome é Eduarda     Alves, tenho 21 anos.  
+        Desde jovem, venho ajudando minha família no setor de vendas, mas agora desejo explorar novas oportunidades e trilhar meu próprio caminho. Estou em busca de uma posição que me permita iniciar minha carreira na área de Ciência da Computação, na qual estou atualmente no 6º período da faculdade. Estou entusiasmada para contribuir com a empresa, compartilhar minhas experiências e, ao mesmo tempo, aprender e crescer profissionalmente.</h3>
+        <center><h2>Contatos</h2></center>
+        <h3>Whats App</h3>
+        <img src="C:\Users\EXCLUIR USUARIO\Downloads\WhatsApp .jpeg" alt="imagem" width="120" height="120">
+        <p> <h3>Link do Linkedin abaixo:</h3></p>
+        <a href="https://www.linkedin.com/in/eduardaalvesdutraa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><h3>Linkedin</h3></a>
+       <p><h3>Link do Git Hub abaixo:</h3></p> 
+          <a href="https://github.com/eduardaalvesd"><h3>Git Hub</h3></a> 
+        
+</body>
+</html>
