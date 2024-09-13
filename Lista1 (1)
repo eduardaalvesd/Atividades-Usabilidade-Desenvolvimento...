@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+</head>
+<body>
+    <h1>Plataforma Shoes</h1>
+    <p> 
+        Somos a Plataforma Shoes, uma empresa consolidada no mercado de calçados femininos há mais de 20 anos. Especializados na produção de calçados em couro legítimo, nosso propósito é oferecer a todas nossas clientes Centopeias conforto e estilo para seus pés, garantindo qualidade e sofistificação em cada passo.  
+    </p> 
+    <hr> </hr>
+
+    <h1>Vantagens de ser uma Centopeia</h1>
+    <ol>
+        <li>Qualidade Superior</li>
+        <li>Conforto</li>
+        <li>Design Personalizado</li>
+        <li>Tendência Inovadora</li>
+        <li>Envio Flexível</li>
+    </ol>
+        <hr> </hr>            
+    <h1>Depoimentos de clientes: </h1>
+    <p> </p>
+       <i> <h3>"Estou apaixonada pelos calçados da Plataforma Shoes"</h3> </i>
+        <h4>Ana Paula Fernades</h4>
+        <br> </br>
+
+        <i> <h3>"Compro a mais de cinco anos, e nunca me decepcionei"</h3> </i>
+        <h4>Beatriz Campos</h4>
+    <br> </br>
+        <i> <h3>"Adoro como os designs são sofisticados e versáteis"</h3> </i>
+        <h4>Valentina Borges</h4>
+    <hr> </hr> 
+
+    <h1>Informações do site</h1>
+    <ul type="circle">
+        <li>Home</li>
+        <li>Quem somos</li>
+        <li>Contato</li>
+    </ul>
+</body>
+</html>
