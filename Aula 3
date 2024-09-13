@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Listas-->
+    <h1>Listas não ordenadas</h1>
+    <p>
+    <h3>Listas</h3>
+    </p>
+    <ul type="circle">
+        <li>Computador</li>
+        <li>Mouse</li>
+        <li>Teclado</li>
+    </ul>
+    <ul type="circle" </ul> </ul>
+    <h2>Listas Ordenadas</h2>
+    <p>
+    <h3>Listas</h3>
+    </p>
+
+    <ol type="a">
+        <li>Computador</li>
+        <li>Mouse</li>
+        <li>Teclado</li>
+    </ol>
+    </p>
+
+    <!--Tabelas-->
+    <h2>Criando Tabelas</h2>
+    <table border="2" Width="200">
+        <tr>
+            <th>Aluno</th>
+            <th>RA</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>4205769023</td>
+        </tr>
+        <!--Utilizando o colspan-->
+
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefone</th>
+            </tr>
+            <br>
+            <tr>
+                <td>Ted</td>
+                <td>9999-8888</td>
+                <td>5555-5555</td>
+            </tr>
+        </table>
+        </br>
+        <table border="1">
+            <tr>
+                <td>primeiro Nome</td>
+                <td>Ted</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telefone:</th>
+                <td>8888-8888</td>
+            </tr>
+            <tr>
+                <td>9999-9999</td>
+            </tr>
+        </table>
+    </table>
+</body>
+
+</html>
