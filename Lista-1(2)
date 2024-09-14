@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+</head>
+<body>
+    <H1>Meus sites favoritos:</H1>
+<a href="https://instagram.com/nomedeusuario/"target="blank"rel="exteral"><img src= "C:\Users\EXCLUIR USUARIO\OneDrive\Documentos\insta foto.png" alt"imagem" width="105" height="105"></a>
+
+<br> </br>
+
+<a href="https://www.netflix.com/br/"target="blank"rel="exteral"><img src= "C:\Users\EXCLUIR USUARIO\OneDrive\Documentos\netflix.jpg" alt"imagem" width="80" height="78"></a>
+<br> </br>
+
+<a href=" https://www.youtube.com/?app=desktop&hl=pt"target="blank"rel="exteral"><img src= "C:\Users\EXCLUIR USUARIO\OneDrive\Documentos\you.png" alt"imagem" width="80" height="78"></a>
+</body>
+</html>
