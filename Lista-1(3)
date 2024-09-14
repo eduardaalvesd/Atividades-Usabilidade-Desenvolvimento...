@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<cabeçalho>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="largura=largura-do-dispositivo, escala-inicial=1.0">
+    <title>Portifólio</title>
+</cabeçalho>
+<corpo>
+    <center><h1><u>Eduarda Alves</u></h1> </center>
+    <h2>Futura Cientista da Computação</h2>
+    <h1>Sobre mim:</h1>
+    <h3>Olá, meu nome é Eduarda Alves, tenho 21 anos.  
+        Desde jovem, venho ajudando minha família no setor de vendas, mas agora desejo explorar novas oportunidades e trilhar meu próprio caminho. Estou em busca de uma posição que me permita iniciar minha carreira na área de Ciência da Computação, que atualmente estou no 6º período da faculdade. Estou disposta para contribuir com a empresa, compartilhar minhas experiências e, ao mesmo tempo, aprender e crescer profissionalmente.</h3>
+        <hr></hr>
+        <h1>Materias Cursadas: </h1>
+        <ul> 
+            <li>Ambientes computacionais e conectividades </li>
+            <li>Sistemas computacionais e segurança</li>
+            <li>Modelagem de software </li>
+            <li>Programação de soluções computacionais </li>
+            <li>Análise de dados e big datas </li>
+            <li>Inteligência artificial </li>
+            <li>Computação gráfica e realidade virtual </li>
+            <li>Estruturas matemáticas </li>
+            <li>Estruturas de dados e análise de algoritmos </li>
+            <li>Teoria da computação e compiladores </li>
+        </ul>
+        <p> </p>
+
+        <h1>Curiosidades que o curso despertou em mim: </h1>
+        <h3>Já cursei algumas matérias, como mencionei anteriormente, e algumas delas despertaram meu interesse de forma especial. Por exemplo, as disciplinas de Ambientes Computacionais e Conectividade, Sistemas Computacionais e Segurança, e Modelagem de Software. Diante das matérias que já estudei, acredito que minha trajetória tende a se direcionar para a área de front-end. Confesso que me sinto mais atraído pela criação e pela interação do usuário com o computador. No entanto, ainda tenho tempo para definir com clareza em qual área desejo me especializar.
+            <h3/>
+        <hr></hr>
+
+        <h2>Contatos:</h2>
+        <a href="https://w.app/lCTcj3" target="blank" rel="external">
+        <h3>WhatsApp</h3></a>
+
+        <a href="https://www.linkedin.com/in/eduardaalvesdutraa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="blank" rel="external"><h3>Linkedin</h3></a>
+       
+          <a href="https://github.com/eduardaalvesd" target="blank" rel="external"><h3>Git Hub</h3></a>
+
+</corpo>
+</html>
