@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Tabela sobre o Camelo</title> 
+
+    <style> 
+
+        table { 
+
+            border-collapse: collapse; 
+
+            width: 100%; 
+
+            margin-top: 20px; 
+
+        } 
+
+        th, td { 
+
+            border: 1px solid black; 
+
+            padding: 8px; 
+
+            text-align: center; 
+
+        } 
+
+        th { 
+
+            background-color: #f2f2f2; 
+
+        } 
+
+    </style> 
+
+</head> 
+
+<body> 
+
+ 
+
+<h2>Informações sobre o Camelo</h2> 
+
+ 
+
+<table> 
+
+    <thead> 
+
+        <tr> 
+
+            <th rowspan="2">Característica</th> 
+
+        </tr> 
+
+        <tr> 
+
+            <th>Descrição</th> 
+
+            <th>Exemplo</th> 
+
+        </tr> 
+
+    </thead> 
+
+    <tbody> 
+
+        <tr> 
+
+            <td>Espécie</td> 
+
+            <td colspan="2">Dromedário (Camelus dromedarius)</td> 
+
+        </tr> 
+
+        <tr> 
+
+            <td>Altura</td> 
+
+            <td>1.8 - 2.2 metros</td> 
+
+            <td>Na cernelha</td> 
+
+        </tr> 
+
+        <tr> 
+
+            <td rowspan="2">Habitat</td> 
+
+            <td colspan="2">Desertos e regiões áridas</td> 
+
+        </tr> 
+
+        <tr> 
+
+            <td colspan="2">Exemplo: Deserto do Saara</td> 
+
+        </tr> 
+
+        <tr> 
+
+            <td>Dieta</td> 
+
+            <td colspan="2">Plantas, arbustos e frutas secas</td> 
+
+        </tr> 
+
+    </tbody> 
+
+</table> 
+
+ 
+
+</body> 
+
+</html> 
