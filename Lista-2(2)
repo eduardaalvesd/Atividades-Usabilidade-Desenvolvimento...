@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+
+ 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Ordenação em tabela</title> 
+
+</head> 
+
+<h2>Lista Ordenada</h2> 
+
+<ol type="1">  
+
+    <li>Python</li> 
+
+    <li>C</li> 
+
+    <li>C++</li> 
+
+    <li>Java</li> 
+
+    <li>C#</li> 
+
+    <li>Visual Basic</li> 
+
+    <li>JavaScript</li> 
+
+</ol> 
+
+ 
+
+</h1>Lista não Ordenada</h1> 
+
+    <ul type="circle">  
+
+        <li>Linguagem sql</li> 
+
+        <li>Linguagem assembly</li> 
+
+        <li>Linguagem php</li> 
+
+        <li>Linguagem go</li> 
+
+        <li>Linguagem r</li> 
+
+        <li>Linguagem mstlab</li> 
+
+        <li>Linguagem delphini/Object pascal</li> 
+
+        <li>Linguagem swift</li> 
+
+        <li>Linguagem ruby</li> 
+
+        <li>Linguagem pwerl</li> 
+
+        <li>Scratch</li> 
+
+        <li>Classic visual basic</li> 
+
+        <li>Rust</li> 
+
+    </ul>  
+
+ 
+
+<h1>Lista Ordenada na Tabela </h1> 
+
+ 
+
+<table border="2" width="300"> 
+
+    <tr> 
+
+        
+
+            <th>#</th> 
+
+        <th> Linguagem</th> 
+
+        <th>Classificação</th> 
+
+        
+
+    </ol> 
+
+    </tr> 
+
+    <tr> 
+
+        <td>1</td> 
+
+        <td>Python </td> 
+
+        <td> 15.49%</td> 
+
+        </ol> 
+
+    </tr> 
+
+ 
+
+    <tr> 
+
+        <td>2</td> 
+
+        <td>C</td> 
+
+        <td> 15.39%</td> 
+
+    </tr> 
+
+ 
+
+    <tr> 
+
+        <td>3</td> 
+
+        <td>C++</td> 
+
+        <td> 15.39%</td> 
+
+    </tr> 
+
+     
+
+    <tr> 
+
+        <td>4</td> 
+
+        <td>Java</td> 
+
+        <td> 13.38%</td> 
+
+    </tr> 
+
+ 
+
+    <tr> 
+
+        <td>5</td> 
+
+        <td>C#</td> 
+
+        <td> 6.38%</td> 
+
+    </tr> 
+
+ 
+
+    <tr> 
+
+        <td>6</td> 
+
+        <td>Visual Basic</td> 
+
+        <td> 4.14%</td> 
+
+    </tr> 
+
+ 
+
+    <tr> 
+
+        <td>7</td> 
+
+        <td>JavaScript</td> 
+
+        <td> 2.52%</td> 
+
+    </tr> 
+
+ 
+
+  <table border="1"> 
+
+    <tr> 
+
+  <th> Outras Linguagens</th> 
+
+</tr> 
+
+<tr> 
+
+     
+
+    <td> 
+
+        <ul type="circle"> 
+
+         <li>Linguagem SQL</li>    
+
+         <li>Linguagem Assembly</li> 
+
+                    <li>Linguagem PHP</li> 
+
+                    <li>Linguagem Go</li> 
+
+                    <li>Linguagem R</li> 
+
+                    <li>Linguagem MATLAB</li> 
+
+                    <li>Linguagem Delphi/Object Pascal</li> 
+
+                    <li>Linguagem Swift</li> 
+
+                    <li>Linguagem Ruby</li> 
+
+                    <li>Linguagem PowerShell</li> 
+
+                    <li>Scratch</li> 
+
+                    <li>Classic Visual Basic</li> 
+
+                    <li>Rust</li> 
+
+                </ul> 
+
+            </td> 
+
+<body> 
+
+</html> 
