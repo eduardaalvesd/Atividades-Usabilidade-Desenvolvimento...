@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Formulário de Cadastro</h2>
+
+    <form action="/submit-cadastro" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email">
+        </div>
+
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+
+        <div class="form-group">
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Como prefere ser contatado?</label><br>
+            <input type="checkbox" id="contato-email" name="contato" value="email">
+            <label for="contato-email">Email</label><br>
+            <input type="checkbox" id="contato-telefone" name="contato" value="telefone">
+            <label for="contato-telefone">Telefone</label><br>
+            <input type="checkbox" id="contato-sms" name="contato" value="sms">
+            <label for="contato-sms">SMS</label>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
