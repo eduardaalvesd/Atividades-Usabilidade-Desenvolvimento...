@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Acadêmica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>SISTEMA DE GESTÃO ACADÊMICA</h3>
+    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+    
+    <form action="/submit-user" method="POST">
+        <div class="form-group">
+            <label for="login">Login:</label>
+            <input type="text" id="login" name="login">
+        </div>
+
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Tipo:</label>
+            <input type="radio" id="tecnico" name="tipo" value="tecnico">
+            <label for="tecnico">Técnico</label>
+            <input type="radio" id="professor" name="tipo" value="professor">
+            <label for="professor">Professor</label>
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">Aluno</label>
+        </div>
+
+        <div class="form-group">
+            <label for="data-criacao">Data Criação:</label>
+            <input type="date" id="data-criacao" name="data-criacao">
+        </div>
+
+        <div class="form-group">
+            <label>Perfil:</label>
+            <input type="radio" id="convidado" name="perfil" value="convidado">
+            <label for="convidado">Convidado</label>
+            <input type="radio" id="administrador" name="perfil" value="administrador">
+            <label for="administrador">Administrador</label>
+        </div>
+
+        <div class="form-group">
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes" rows="4" cols="30"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Módulos:</label>
+            <input type="checkbox" id="compras" name="modulos" value="compras">
+            <label for="compras">Compras</label>
+            <input type="checkbox" id="biblioteca" name="modulos" value="biblioteca">
+            <label for="biblioteca">Biblioteca</label>
+            <input type="checkbox" id="academico" name="modulos" value="academico">
+            <label for="academico">Acadêmico</label>
+            <br>
+            <input type="checkbox" id="documentacao" name="modulos" value="documentacao">
+            <label for="documentacao">Documentação</label>
+            <input type="checkbox" id="recursos-humanos" name="modulos" value="recursos-humanos">
+            <label for="recursos-humanos">Recursos Humanos</label>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Excluir">
+        </div>
+
+    </form>
+
+</body>
+</html>
