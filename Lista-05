@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: yellow;
+        }
+        h2{
+            color:white
+        }
+        label{
+            color:white
+        }
+        imput,select,textares{
+            color: white;
+        }
+        input[type="submit"] {
+            background-color:yellow; 
+            color: white; 
+    }    
+    vaga-container {
+            background-color:white 
+            color:black 
+        }
+        input[type="submit"]:hover {
+            background-color:yellow; 
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <h2>Para concluir seu cadastro, é necessário preencher todos os campos do formulário abaixo.</h2>
+    <p></p>
+    <h1>Formulário de Inscrição para Estágio</h1>
+    <form action="#" method="POST">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="endereco">Endereço Completo:</label><br>
+        <input type="text" id="endereco" name="endereco" required><br><br>
+
+        <label for="contato">Contato:</label><br>
+        <input type="tel" id="contato" name="contato" required><br><br>
+
+        <label for="vaga">Qual vaga você tem interesse?</label><br>
+        <select id="vaga" name="vaga" required>
+            <option value="arquitetura">Arquitetura</option>
+            <option value="economia">Economia</option>
+            <option value="enfermagem">Enfermagem</option>
+            <option value="engenharia_civil">Engenharia Civil</option>
+            <option value="farmacia">Farmácia</option>
+            <option value="marketing">Marketing</option>
+        </select><br><br>
+
+        <label for="semestre">Qual semestre você está?</label><br>
+        <input type="text" id="semestre" name="semestre" required><br><br>
+
+        <label>Disponibilidade de estagiar:</label><br>
+        <input type="radio" id="matutino" name="turno" value="matutino">
+        <label for="matutino">Matutino</label><br>
+        <input type="radio" id="vespertino" name="turno" value="vespertino">
+        <label for="vespertino">Vespertino</label><br>
+        <input type="radio" id="ambos" name="turno" value="ambos">
+        <label for="ambos">Ambos</label><br><br>
+
+        <label>Já estagiou anteriormente?</label><br>
+        <input type="radio" id="sim" name="estagio_anterior" value="sim" required>
+        <label for="sim">Sim</label><br>
+        <input type="radio" id="nao" name="estagio_anterior" value="nao" required>
+        <label for="nao">Não</label><br><br>
+
+        <label for="sobre">Nos conte um pouco sobre você:</label><br>
+        <textarea id="sobre" name="sobre" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <p> </p>
+    <h2>*Clique no link abaixo, e você será direcionado para página com informações sobre o estágio. </h2>
+
+    <img src="C:\Users\EXCLUIR USUARIO\OneDrive\Documentos\Ativ  Quinta\Lista-05\foto.png" alt"Estágio">
+    <a href="Nova aba.html" target="external">Link com as informações</a>
+
+</body>
+</html>
+
+
+<!--2 pagina-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de informações</title>
+    <style>
+        body {
+            background-color: black;
+            color: white; /* Cor do texto */
+        }
+        h1 {
+            color: yellow;
+        }
+        table {
+            width: 100%; /* Largura total da tabela */
+            border-collapse: collapse; /* Colapsar bordas */
+        }
+        th, td {
+            border: 1px solid white; /* Bordas brancas */
+            padding: 8px; /* Espaçamento interno */
+            text-align: left; /* Alinhamento à esquerda */
+        }
+        th {
+            background-color: #333; /* Fundo para cabeçalhos */
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Informações a respeito do estágio:</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Área de atuação</th>
+                <th>Tipo de Estágio</th>
+                <th>Duração</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arquitetura</td>
+                <td>Não Remunerado</td>
+                <td>12m</td>
+            </tr>
+            <tr> 
+                <td>Economia</td>
+                <td>Remunerado</td>
+                <td>12m</td>
+            </tr>
+            <tr>
+                <td>Enfermagem</td>
+                <td>Remunerado</td>
+                <td>6m</td>
+            </tr>
+            <tr>
+                <td>Engenharia Civil</td>
+                <td>Não Remunerado</td>
+                <td>12m</td>
+            </tr>
+            <tr>
+                <td>Farmácia</td>
+                <td>Remunerado</td>
+                <td>6m</td>
+            </tr>
+            <tr>
+                <td>Marketing</td>
+                <td>Não Remunerado</td>
+                <td>6m</td>
+            </tr>
+            <tr>
+                <td>TI</td>
+                <td>Remunerado</td>
+                <td>12m</td>
+            </tr>    
+        </tbody>
+    </table>
+</body>
+</html>
+
+
